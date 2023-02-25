@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 
 
 
@@ -52,7 +52,52 @@
 }
 .navbar ul li a.active,
 .navbar ul li a:hover{
-    background: #ff6e00;
+    background: #4d8b59;
     border-radius: 2px;
+    transition: .5s;
 
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+
+
+}
+.center h1{
+    color: rgb(248, 244, 244);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: #f3f3f3;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .buttoms{
+    margin: 35px 280px;
+}
+.buttoms button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color:rgb(117, 98, 98);
+    border: solid 1px red;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.5s;
+
+}
+.buttoms button:hover{
+    background: #47944a;
 }
