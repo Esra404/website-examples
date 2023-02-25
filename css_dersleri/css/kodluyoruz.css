@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-bar{
+    width: 200px;
+    float: left;
+}
+.content{
+    width: 800px;
+    float: left;
+    height: auto;
+}
+.clear{
+    clear: both;
+}
+.card {
+    width: 33%;
+    float: left;
+    padding: 5%;
+    margin-right:3% ;
+    background-color: antiquewhite;
+    
+
+
+}
+.box {
+    
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.bg-red{
+    background-color: red;
+    
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+
+ body{
+    background-color: coral;
+    color:white;
+    font-family: sans-serif;
+ }
+h2 {
+    color: red;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+p{
+    color:greenyellow;
+    font-size: 34px;
+}
+ul{
+
+    color: blueviolet;
+}
+
+*/
+/*******************************************************************************/
+/* class --> .text-red{} */
+/* id ->#id-bilgisi {} */
+/*.text-red {
+    color: rgb(183, 26, 26);
+}
+.fs-10{
+    font-size: 10px;
+}
+
+.fs-30{
+    font:size 20px;
+}
+.fs-50{
+    font-size: 30px;
+}
+#first-article {
+    font-size: 14px;
+}
+p { font-size: 20px;}
+h1 {
+    font-size: 30px;
+}
+h1,h2,h3{
+    color: blue;
+}
+.color-blue.fw-bold{
+    color: blue;
+    font-weight: bold;
+}
+p:nth-last-of-type(2) {
+    background: red;
+  }
+
+p.intro {
+    background-color: yellow;
+  }
+*/
+

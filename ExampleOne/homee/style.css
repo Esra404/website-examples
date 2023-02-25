@@ -1,0 +1,25 @@
+body{
+    background-image: url("resim2.jpg");
+    max-width: 0px;
+    max-height: 0px;
+}
+h2{
+    color: aqua;
+    font-size: 15px;
+}
+li{
+    color:rgb(8, 9, 7);
+}
+
+.sag{
+    width:100px;
+    margin-left:1000px;
+    margin-right: 700px;
+    text-align:0 ;
+}
+.sol{
+    float:left;
+    padding:0 30 px 0 10px;
+}
+
+
