@@ -57,17 +57,36 @@ nav .menu {
     column-gap: 48px;
 }
 nav .menu .menu-button {
-    color: rgb(180, 107, 12);
+    color: rgb(88, 123, 61);
     text-decoration: none;
-    background-color: rgb(218, 62, 10);
+    background-color: rgb(189, 179, 176);
     padding: 12px 24px;
     border-radius: 56px;
-    transition: ;
+    transition: all .25s ease ;
 
 }
 nav .menu .menu-button:hover{
     background-color: rgb(56, 126, 65);
     color: azure;
 }
+/*responsive Strat */
+@media(max-width:576px){
+    .container{
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+    .menu ul{
+        column-gap: 20px;
+
+    }
+    .menu .menu-button{
+        display: none;
+    }
+}
 
 /*  header end */
+/*  Section strat */
+
+/*  SEction end */
