@@ -75,15 +75,16 @@ body{
 
 }
 .container .main-content{
-    margin-left: 200px;
+    margin-left: 210px;
 
 }
 .container .main-content .header{
     padding: 20px;
-    background: rgb(195, 146, 146);
+    background: rgb(200, 195, 195);
     color: rgb(159, 12, 12);
 }
 .container .main-content info{
     margin:20px;
     color: rgb(0, 0, 0);
+    
 }
