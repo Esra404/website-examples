@@ -37,3 +37,53 @@ body{
 .container .sidebar ul li a{
     color: aliceblue;
 }
+.container .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid black;
+    transition: .5s;
+
+
+}
+.container .sidebar ul li:hover{
+    background: black;
+}
+.container .sidebar .social-media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.container .sidebar .social-media a{
+    display: block;
+    width: 40px;
+    background: black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: aliceblue;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: .5s;
+
+}
+.container .sidebar .social-media a:hover{
+    
+    background-color: rgb(120, 201, 150);
+
+
+}
+.container .main-content{
+    margin-left: 200px;
+
+}
+.container .main-content .header{
+    padding: 20px;
+    background: rgb(195, 146, 146);
+    color: rgb(159, 12, 12);
+}
+.container .main-content info{
+    margin:20px;
+    color: rgb(0, 0, 0);
+}
