@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    background: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+
+
+}
+.btn::before{
+    color: aliceblue;
+    font-family: sans-serif;
+    content: 'Hover me';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 20px;
+    transition: all 0.5s ;
+    
+}
+.btn:hover::before{
+    top:-30px;
+
+}
+.btn::after{
+    font-family: 'Ionicons';
+    content: '\f2c3';
+    color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+    top: 150%;
+    transition: all 0.5s ;
+}
+.btn:hover::after{
+    top: 50%;
+}
