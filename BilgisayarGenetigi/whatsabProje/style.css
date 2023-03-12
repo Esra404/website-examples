@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#069688 0%,#009688 130px,#f1f3ee 130px,#86b541 100%);
+    background: linear-gradient(#069688 0%,#009688 130px,#f1f3ee 130px,#c5c9c0 100%);
 }
 .container{
     position: relative;
@@ -26,13 +26,32 @@ body{
 .container .leftSide{
     position: relative;
     flex: 30%;
-    background: royalblue;
+    background: #fff;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 .container .rightSide{ 
     position: relative;
     flex: 70%;
-    background: rgb(255, 0, 238);
+    background: #e5ddd5;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
 
 }
+
+.userImg{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
