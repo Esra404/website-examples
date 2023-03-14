@@ -265,12 +265,12 @@ body{
 }
 .message.frnd_message{
     position: relative;
- text-align: left;
- max-width: 200px;
- background: #fff;
- border-radius: 10%;
- left: 0%;
- justify-content: left;
+    text-align: left;
+    max-width: 200px;
+    background: #fff;
+    border-radius: 10%;
+    left: 0%;
+    justify-content: left;
  
 }
 .message.frnd_message p::before{
