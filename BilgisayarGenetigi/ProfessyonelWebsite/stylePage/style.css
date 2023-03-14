@@ -33,6 +33,21 @@ body{
     background-color: var(background-color rgb(24, 169, 19));
     height: 200vh;
 }
+section{
+    padding: 3.5rem 7%;
+
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #ccc;
+    background-color: var(--black-color);
+    cursor: pointer;
+
+}
 /* header section start */
 .header .logo img{
     height: 10rem;
@@ -60,36 +75,78 @@ body{
 
 }
 .header .navbar .active,
-.header .navbar  a:hover{
+.header .navbar  a:hover
+{
     border-color:var(rgb(68, 255, 0));
     padding-bottom: 0.5rem;
-    
-    
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.header .buttons button
+{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background: transparent;
+}
+/* home start */
+.home
+{
+    min-height: 100vh;
+    background: url(../imagesPage/images/home.jpg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -14.5rem;
+    display: flex;
+    align-items: center;
+}
+.home .content
+{
+    max-width: 60rem;
+}
+.home .content h3 
+{
+    font-size: 6rem;
+    color: aliceblue;
+}
+.home .content p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color:#ccc;
+}
+/* home end */
 /*header section end*/
 
 
+/* menu start */
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem ,1fr));
+    gap: 1.5rem;
+}
+.menu .box-container .box{
+    padding: 3rem;
+    background-color: #ccc;
+    border-radius: 3rem;
+    background-color: #ccc;
+    min-height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
 
+
+
+
+.menu .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* menu end */
 
 
 
