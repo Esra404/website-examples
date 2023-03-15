@@ -288,16 +288,106 @@ object-fit: cover;
     border-radius: 50%;
     width: 6.5rem;
     height: 6.5rem;
-    border-radius: 0.2rem solid var(--black-color);
+    border: 0.2rem solid var (var(--black-color));
+    
+    
 }
 .products .box-container .box-bottom .product-btn a i{
     font-size:1.6rem ;
-    color: var(--blacl-color);
-
+    color:var(--black-color);
 }
 
 
+
 /* product end */
+/* about start*/
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+ 
+.about .row .image{
+    flex: 1 1 45rem;
+
+}
+.about .row img{
+    width: 100%;
+
+}
+.about .row .content{
+    flex: 1 1 45rem;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: #ffffff;
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+/* about end */
+/* review start */
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+
+}
+.review .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding  : 3rem 2rem;
+    background-color: #ccc;
+    border-radius: 3rem;
+}
+.review .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 2rem 0;
+
+}
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: rgb(177, 40, 40);
+
+}
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color: rgb(201, 173, 14);
+
+}
+/* review end */
+/* contact start*/
+.contact .row{
+    display: flex;
+    background-color: var(--black-color);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem ;
+    text-align: center;
+}
+/* contact end */
+
 
 
 
