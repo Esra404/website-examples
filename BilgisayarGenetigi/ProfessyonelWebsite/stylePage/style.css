@@ -29,12 +29,28 @@ html{
    scroll-padding-top: 9rem;
 
 }
+html::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color: aliceblue;
+}
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 3rem;
+    background-color: black;
+}
 body{
     background-color: var(background-color rgb(24, 169, 19));
-    height: 200vh;
+    /*height: 200vh;*/
 }
 section{
     padding: 3.5rem 7%;
+
+}
+a{
+    color: #000;
+    text-decoration: none;
 
 }
 .btn{
@@ -46,6 +62,23 @@ section{
     color: #ccc;
     background-color: var(--black-color);
     cursor: pointer;
+
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.heading{
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 0.1rem solid #ccc;
+
+}
+.heading span {
+    text-transform: uppercase;
+    color: black;
+
 
 }
 /* header section start */
@@ -125,6 +158,7 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(30rem ,1fr));
     gap: 1.5rem;
 }
+
 .menu .box-container .box{
     padding: 3rem;
     background-color: #ccc;
@@ -141,14 +175,129 @@ section{
 
 
 .menu .box-container .box img{
+
+width: 100%;
+object-fit: cover;
+}
+
+.menu .box-container .box .menu-category{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.menu.box-container .box h3{
+    font-size: 3rem;
+}
+.menu .box-container .box .price{
+    font-size: 2.5rem;
+    padding: 0.5 rem 0;
+}
+.menu .box-container .box .price span{
+     font-size: 1.5rem;
+     text-decoration: line-through;
+     font-weight: 300;
+
+}
+/* menu end */
+
+/* product start */
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap:1.5rem;
+}
+.products .box-container .box{
+    text-align: center;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 3rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.products .box-container .box .box-head .title{
+  font-size: 1.4rem;
+}
+.products .box-container .box .box-head .name{
+   font-size: 4rem;
+   font-weight: bold;
+   text-align: start;
+   overflow-wrap: anywhere;
+}
+.products .box-container .dark-bg .box-head .name,
+.products .box-container .dark-bg .box-head .title{
+    color: #ac1c1c;
+
+}
+
+.products .box-container .dark-bg img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: unset;
+    
+}
+.products .box-container img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 100%;
     object-fit: cover;
+    transform: translate(-50%,-50%);
+    border-radius: 3rem;
+
+    
+}
+.products .box-container .dark.bg img{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transform: unset;
+
+}
+.products .box-container .box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.products .box-container .box-bottom .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.products .box-container .box-bottom .info .price{
+    font-size: 3rem;
+}
+.products .box-container .box-bottom .info .amount{
+    font-size: 1.4rem;
+}
+.products .box-container .dark-bg .box-bottom .info .price,
+.products .box-container .dark-bg .box-bottom .info .amount{
+    font-size: 1.4rem;
+    color: aliceblue;
+}
+.products .box-container .box-bottom .product-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 0.2rem solid var(--black-color);
+}
+.products .box-container .box-bottom .product-btn a i{
+    font-size:1.6rem ;
+    color: var(--blacl-color);
+
 }
 
 
-/* menu end */
-
-
+/* product end */
 
 
 
