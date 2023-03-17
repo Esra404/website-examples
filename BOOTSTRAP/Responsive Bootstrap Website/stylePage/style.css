@@ -114,3 +114,28 @@ body{
     padding: 2% 5%;
     border-radius: 5px;
 }
+/*section*/
+.section-3{
+    margin-top: 6%;
+}
+.section-3 i{
+    color: #00E8E8;
+}
+.section-3 p{
+    color: rgba(0, 0, 0,0.59);
+}
+/*section-4
+*/
+.section-4{
+    margin-top: 8%;
+
+}
+.section-4 .row .col-md-7,.col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section-4 a{
+    color: #00E8E8;
+    font-size: 40px;
+    text-decoration: none;
+}
